@@ -6,5 +6,3 @@ string.each do |word|
   end
   
  end
-
-
