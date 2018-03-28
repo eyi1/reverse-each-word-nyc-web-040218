@@ -4,6 +4,5 @@ array = string.split(" ")
 array.each do |word|
     word.reverse
   end
-  array.join(" ")
-
+array.join(" ")
  end
