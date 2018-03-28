@@ -1,5 +1,10 @@
 def reverse_each_word (string)
-string.split(" ")
-string.reverse
-string.join(" ")
+
+reversed = ''
+i=0
+while i <string.length
+  reversed = string[i] + reversed
+  i+=1
+end
+return reversed
 end
